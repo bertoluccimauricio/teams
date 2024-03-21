@@ -15,7 +15,7 @@ import { Container, Form, HeaderList, NumberOfPlayers } from './styles';
 export function Players() {
 
     const [team, setTeam] = useState('TIME A')
-    const [players, setPlayers] = useState(['Mauricio'])
+    const [players, setPlayers] = useState([])
 
     return (
         <Container>
